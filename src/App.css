@@ -1,0 +1,44 @@
+.App {
+    height: 100vh;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.mainContentArea {
+    margin: 0 auto;
+    padding: 5px 2rem;
+}
+
+/*global css*/
+.button {
+    padding: 5px 10px;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.button[disabled] {
+    background-color: grey;
+}
+
+.button[disabled]:hover {
+    background-color: grey;
+    cursor: default
+}
+
+.button:hover {
+    background-color: rgb(241, 177, 58);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}

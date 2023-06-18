@@ -1,0 +1,13 @@
+.cardContainer {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5); */
+}
+
+.imageContainer {
+    width: calc(100% - 5px);
+    /* box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5); */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%)
+}
